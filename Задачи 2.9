@@ -1,0 +1,8 @@
+a=['c','f']
+b=['c','f','t','p']
+def f(c,f):
+    for i in range(len(a)):
+        if a[i] in b:
+            b.remove(a[i])
+    print(b)
+f(a,b)
