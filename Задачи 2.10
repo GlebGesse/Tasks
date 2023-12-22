@@ -1,0 +1,12 @@
+c=input().split()
+y=input().split()
+def r (c,y):
+    c=[]
+    l=[]
+    for i in range(len(max(c,y))):
+        c.append(c[i])
+        c.append(y[i])
+        l.append(c)
+        c=[]
+    print(l)
+r(c,y)
